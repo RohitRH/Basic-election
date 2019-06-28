@@ -2,7 +2,7 @@ import urllib.request
 import cv2
 import numpy as np
 while True:
-    url="image link"
+    url="ipwebcam link "
     img=urllib.request.urlopen(url)
     imgnp=np.array(bytearray(img.read()),dtype=np.uint8)
     imgreal=cv2.imdecode(imgnp,-1)
