@@ -59,7 +59,7 @@ def generate():
     a=0
     val=(id,name,a,vid,address,mobile_no)
     count=0
-    url = "http://192.168.43.21:8080/shot.jpg"
+    url = "lmage link from browser"
     while True:
         #ret,img=cam.read()
         #url = "http://192.168.43.21:8080/shot.jpg"
