@@ -24,12 +24,12 @@ msg=str(name1)+"\n"+str(vid1)+"\n"+str(addr1)+"\n"+str(mobno)
 # get request
 def sendPostRequest(reqUrl, apiKey, secretKey, useType, phoneNo, senderId, textMessage):
   req_params = {
-  'apikey':"RRS99WUWR8O4PNT8RV757HI2X3STDAAG",
-  'secret':"US5EVID8CXSH6F5H",
+  'apikey':"way2sms api",
+  'secret':"secret key",
   'usetype':"stage",
-  'phone': 8277332768,
+  'phone': from mobno,
   'message':msg,
-  'senderid':9113234632
+  'senderid':sender mob no.
   }
   return requests.post(reqUrl, req_params)
 
@@ -42,4 +42,3 @@ response = sendPostRequest(URL, 'provided-api-key', 'provided-secret', 'prod/sta
 """
 # print response if you want
 print(response.text)
-#view rawpython_sendcampaign_post.py hosted with ❤ by GitHub

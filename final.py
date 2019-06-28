@@ -55,7 +55,7 @@ def getface(i):
     sql1="insert into sms123(id,name) values(%s,%s)"
     sql2="delete from sms123"
     #cam = cv2.VideoCapture(0)
-    url = "http://192.168.43.21:8080/shot.jpg"
+    url = "image link from browser"
     while True:
         #ret, im =cam.read()
         img = urllib.request.urlopen(url)
