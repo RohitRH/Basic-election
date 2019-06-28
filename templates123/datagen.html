@@ -1,0 +1,17 @@
+{% extends "base.html" %} {% block title %} VOTING IS EVERYONES'S RIGHT
+ {% endblock %} {% block content %}
+<script lang="javascript">
+
+</script>
+<h1>Fill Details</h1>
+
+<form action="datagen" method="POST">
+    <p>
+        Voter Id: <br> <input type="text" name="Id" required> <br> 
+        Name: <br> <input type="text" name="name" required><br>
+        Address:<br><input type="text" name="address"><br>
+        Mobile Number:<br><input type="text" name="mobile number">
+    </p>
+    <button type="submit">Submit</button>
+</form>
+{% endblock %}
